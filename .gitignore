@@ -1,0 +1,7 @@
+# Don't track the follwing folders
+
+/__pycache__
+
+#Don't track the following files
+
+gecko*
