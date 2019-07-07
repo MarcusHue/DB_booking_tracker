@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 import os
 import config
+import utils
 from scrapy import Selector
 
 dirpath = os.getcwd()
@@ -35,17 +36,27 @@ def retrieve_utalisation():
     return(utalisation)
 
 
+def retrieve_departure_time():
+    time_element = driver.find_element_by_xpath(config.xpath_departure_time)
+    time = time_element.text
+    time = utils.clean_convert_time(time)
+    return(time)
+
+def retrieve_arrival_time():
+    time_element = driver.find_element_by_xpath(config.xpath_arrival_time)
+    time = time_element.text
+    time = utils.clean_convert_time(time)
+    return(time)
+
 def retrieve_data():
-    driver = webdriver.Firefox(executable_path = dirpath + '/geckodriver', options = options)
-    driver.get(config.url)
     navigate_to_result_page()
-
-    utalisation = retrieve_utalisation()
+    utalisation = retrieve_departure_time()
     driver.quit()
-    return(date)
+    return(utalisation)
 
-
-html = retrieve_utalisation()
+driver = webdriver.Firefox(executable_path = dirpath + '/geckodriver', options = options)
+driver.get(config.url)
+html = retrieve_data()
 
 print(html)
 

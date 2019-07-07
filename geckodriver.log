@@ -819,3 +819,174 @@ JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: 
 1562184719771	Marionette	INFO	Listening on port 42435
 1562184719858	Marionette	WARN	TLS certificate errors will be ignored for this session
 1562184747508	Marionette	INFO	Stopped listening on port 42435
+1562518272511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XxGE46QNzzGX"
+1562518273353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562518273353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562518273354	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562518275837	Marionette	INFO	Listening on port 44525
+1562518275926	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10954, Gecko_IOThread] WARNING: pipe error (86): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 10954, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562518301308	Marionette	INFO	Stopped listening on port 44525
+1562518336639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kAuTIzmhgexr"
+1562518337228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562518337229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562518337229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562518339286	Marionette	INFO	Listening on port 42267
+1562518339348	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11330, Gecko_IOThread] WARNING: pipe error (101): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11330, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562518356009	Marionette	INFO	Stopped listening on port 42267
+1562518400046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ShVy9i4apMer"
+1562518400594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562518400594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562518400594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562518402798	Marionette	INFO	Listening on port 42297
+1562518402857	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11717, Gecko_IOThread] WARNING: pipe error (101): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11717, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562518445603	Marionette	INFO	Stopped listening on port 42297
+1562518453979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I0uZUoNBLjsy"
+1562518454514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562518454515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562518454515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562518456845	Marionette	INFO	Listening on port 41103
+1562518456889	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+[Parent 12075, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 12075, Gecko_IOThread] WARNING: pipe error (99): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562518534054	Marionette	INFO	Stopped listening on port 41103
+1562518862067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ywjQaMD13njF"
+1562518862609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562518862610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562518862610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562518865087	Marionette	INFO	Listening on port 44879
+1562518865107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562371206344%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 12556, Gecko_IOThread] WARNING: pipe error (88): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 12556, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562519024607	Marionette	INFO	Stopped listening on port 44879
+1562519092227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5kw6UgWz8awF"
+1562519092919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562519092920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562519092920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562519095480	Marionette	INFO	Listening on port 36391
+1562519095548	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562371206344%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1562519372443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.H0hsAP3uDQ5D"
+[Parent 13075, Gecko_IOThread] WARNING: pipe error (101): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 13075, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562519372818	Marionette	INFO	Stopped listening on port 36391
+1562519373126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562519373126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562519373126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562519375423	Marionette	INFO	Listening on port 35685
+1562519375454	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+1562519393970	Marionette	INFO	Stopped listening on port 35685
+[Parent 13553, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562519609959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4BUilCls62uA"
+1562519610493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562519610493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562519610493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562519612742	Marionette	INFO	Listening on port 38797
+1562519612774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+1562519624552	Marionette	INFO	Stopped listening on port 38797
+[Parent 14103, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 14103, Gecko_IOThread] WARNING: pipe error (72): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562520767720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eQPYVPf7BuHL"
+1562520768331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562520768331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562520768331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562520770716	Marionette	INFO	Listening on port 38877
+1562520770740	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+[Parent 15092, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15092, Gecko_IOThread] WARNING: pipe error (94): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562520797618	Marionette	INFO	Stopped listening on port 38877
+1562520798037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ALr6aCVqZLnf"
+1562520798606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562520798607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562520798607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562520801047	Marionette	INFO	Listening on port 46821
+1562520801147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+1562520825888	Marionette	INFO	Stopped listening on port 46821
+[Parent 15415, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562521651512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g0PfCDaVGjoC"
+1562521652058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562521652059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562521652059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562521654327	Marionette	INFO	Listening on port 35965
+1562521654426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+1562521674165	Marionette	INFO	Stopped listening on port 35965
+[Parent 16892, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562522058248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z7bw254HpAKZ"
+1562522058794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562522058794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562522058794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562522061092	Marionette	INFO	Listening on port 42745
+1562522061165	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+[Parent 17519, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 17519, Gecko_IOThread] WARNING: pipe error (101): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562522102085	Marionette	INFO	Stopped listening on port 42745
+1562522112063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6DtaU1j5fVbe"
+1562522112591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562522112591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562522112591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562522114877	Marionette	INFO	Listening on port 40717
+1562522114976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+[Parent 17859, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 17859, Gecko_IOThread] WARNING: pipe error (86): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562522158277	Marionette	INFO	Stopped listening on port 40717
+1562522164040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oNDWnikd4cwj"
+1562522164599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562522164599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562522164599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562522166759	Marionette	INFO	Listening on port 32969
+1562522166851	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+[Parent 18200, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 18200, Gecko_IOThread] WARNING: pipe error (104): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1562522205250	Marionette	INFO	Stopped listening on port 32969
+1562522210759	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZrzlKt7KOaz6"
+1562522211314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562522211314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562522211315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562522213605	Marionette	INFO	Listening on port 41969
+1562522213673	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+JavaScript warning: https://www.img-bahn.de/s3/prod/v/js/hafas_tp.js, line 311: unreachable code after return statement
+1562522220431	Marionette	INFO	Stopped listening on port 41969
+[Parent 18539, Gecko_IOThread] WARNING: pipe error (80): Die Verbindung wurde vom Kommunikationspartner zurückgesetzt: file /build/firefox-ubqoiK/firefox-67.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
