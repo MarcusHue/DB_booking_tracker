@@ -1,2 +1,3 @@
-import config 
-import pandas
+import scraper as scp
+
+print(scp.retrieve_data())
