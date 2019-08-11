@@ -47,28 +47,31 @@ def retrieve_departure_time(driver):
     return(time)
 
 def retrieve_arrival_time(driver):
-    time_element = driver.find_element_by_xpath(config.xpath_arrival_time)
+    time_element = driver.find_element_by_xpath(config.xpath_arrival_time_same_day)
     time = time_element.text
+    if 'Tag' in time:
+        time_element = driver.find_element_by_xpath(config.xpath_arrival_time_next_day)
+        time = time_element.text
     time = utils.clean_convert_time(time)
     return(time)
 
-def retrieve_product(driver):
-    element = driver.find_element_by_xpath(config.xpath_product)
-    product = element.text
-    return(product)
+def retrieve_train_number(driver):
+    element = driver.find_element_by_xpath(config.xpath_train_number)
+    train_number = element.text
+    return(train_number)
 
 def retrieve_data():
     driver = navigate_to_result_page()
     utilisation = retrieve_utilisation(driver)
     arrival_time = retrieve_arrival_time(driver)
     departure_time = retrieve_departure_time(driver)
-    product = retrieve_product(driver)
+    train_number = retrieve_train_number(driver)
     train_data = {  'arrival_time_planned'  :   arrival_time['planned_time'], 
                     'arrival_time_actual'   :   arrival_time['actual_time'], 
                     'departure_time_planned':   departure_time['planned_time'], 
                     'departure_time_actual' :   departure_time['actual_time'],
                     'utilisation'           :   utilisation ,
-                    'product'               :   product
+                    'train_number'          :   train_number
                     }
     driver.quit()
     return(train_data)

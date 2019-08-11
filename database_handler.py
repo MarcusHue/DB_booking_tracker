@@ -32,11 +32,26 @@ def execute_push_sql(querry):
 
 # Function that takes the result dictionary and pushes the values into the raw_data db
 def push_results_into_db(result):
-  querry = "INSERT INTO raw_data (arrival_time_planned, arrival_time_actual, departure_time_planned, departure_time_actual, utalisation, train_number) VALUES ('{timestamp}','{url}',{number_comments}, '{error}')".format(
-        timestamp = result.get('timestamp'), 
-        url = result.get('url'), 
-        number_comments = result.get('number_comments'),
-        error = result.get('error'))
+  querry = "INSERT INTO raw_data (\
+        arrival_time_planned, \
+        arrival_time_actual, \
+        departure_time_planned, \
+        departure_time_actual, \
+        utilisation, \
+        train_number) VALUES (\
+        \
+        '{arrival_time_planned}',\
+        '{arrival_time_actual}',\
+        '{departure_time_planned}', \
+        '{departure_time_actual}', \
+        '{utilisation}',\
+        '{train_number}')".format(
+        arrival_time_planned = result.get('arrival_time_planned'), 
+        arrival_time_actual = result.get('arrival_time_actual'), 
+        departure_time_planned = result.get('departure_time_planned'),
+        departure_time_actual = result.get('departure_time_actual'),
+        utilisation = result.get('utilisation'),
+        train_number = result.get('train_number'))
   execute_push_sql(querry)
 
 
