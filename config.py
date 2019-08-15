@@ -1,3 +1,6 @@
+#scraper
+headless = True
+
 #database
 sql_config = {'host':'localhost', 'database':'DB_scraper', 'user':'scraper', 'password':'scraper'}
 

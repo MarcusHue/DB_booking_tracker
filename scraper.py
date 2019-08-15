@@ -1,18 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
 import os
 import config
 import utils
-from scrapy import Selector
+
 
 dirpath = os.getcwd()
 options = Options()
 options.add_argument("--headless")
-driver = webdriver.Firefox(executable_path = dirpath + '/geckodriver',options = options)
-driver.get(config.url)
-
-
+options.add_argument("--width=1920")
+options.add_argument("--height=1080")
 
  
 def type_in_origin(driver, origin):
