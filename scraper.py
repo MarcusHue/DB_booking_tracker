@@ -20,11 +20,11 @@ def type_in_destination(driver, destination):
     form_destination = driver.find_element_by_id(config.destination_field)
     form_destination.send_keys(destination)
 
-def navigate_to_result_page():
+def navigate_to_result_page(journey):
     driver = webdriver.Firefox(executable_path = dirpath + '/geckodriver',options = options)
     driver.get(config.url)
-    type_in_origin(driver, config.origin)
-    type_in_destination(driver, config.destination)
+    type_in_origin(driver, journey.get('origin'))
+    type_in_destination(driver, journey.get('destination'))
     btn_submit = driver.find_element_by_class_name(config.submit_button_class)
     btn_submit.click()
     btn_show_details = driver.find_element_by_id(config.details_button_id)
@@ -57,8 +57,8 @@ def retrieve_train_number(driver):
     train_number = element.text
     return(train_number)
 
-def retrieve_data():
-    driver = navigate_to_result_page()
+def retrieve_data(journey):
+    driver = navigate_to_result_page(journey)
     utilisation = retrieve_utilisation(driver)
     arrival_time = retrieve_arrival_time(driver)
     departure_time = retrieve_departure_time(driver)
