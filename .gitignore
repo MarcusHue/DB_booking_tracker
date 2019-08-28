@@ -1,7 +1,7 @@
 # Don't track the follwing folders
 
 /__pycache__
-/.vscode
+
 #Don't track the following files
 
 gecko*
